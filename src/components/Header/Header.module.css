@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_part1 {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.header_part1 > div {
+    display: flex;
+    align-items: center;
+}
+
+.header_part2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_button {
+    background-color: #212B36;
+    color: #fff;
+    width: 83px;
+    height: 36px;
+    border-radius: 6px;
+}

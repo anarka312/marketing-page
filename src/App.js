@@ -1,11 +1,14 @@
+import Header from "./components/Header";
+import Main from "./components/Main"
 
 
-function App() {
+function HomePage() {
   return (
     <div className="App">
-      
+      <Header/>
+      <Main/>
     </div>
   );
 }
 
-export default App;
+export default HomePage;
