@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./Header.module.css";
-import logo from "./img/logo.svg";
-import dot from "./img/dot.svg";
-import icon_down from "./img/icon_down.svg";
-import lang from "./img/lang.svg";
-import search from "./img/search.svg";
+import logo from "./../assets/header_images/logo.svg";
+import dot from "./../assets/header_images/dot.svg";
+import icon_down from "./../assets/header_images/icon_down.svg";
+import lang from "./../assets/header_images/lang.svg";
+import search from "./../assets/header_images/search.svg";
 
 const Header = () => {
   return (

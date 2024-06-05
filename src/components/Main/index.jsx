@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Main.module.css";
+import marketing from "./../assets/main_images/marketing.png";
 
 const Main = () => {
   return (
@@ -17,7 +18,9 @@ const Main = () => {
             <p>See our work</p>
           </div>
         </div>
-        <div></div>
+        <div>
+          <img src={marketing} alt="pic" />
+        </div>
       </div>
     </section>
   );
