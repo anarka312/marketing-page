@@ -6,20 +6,20 @@ const Main = () => {
   return (
     <section className="container">
       <div className={styles.main}>
-        <div>
-          <h4>Digital Marketing</h4>
-          <h1>Boosts Your Website Traffic</h1>
-          <p>
+        <div className={styles.main_content}>
+          <h4 className={styles.main_text}>Digital Marketing</h4>
+          <h1 className={styles.main_title}>Boosts Your Website Traffic</h1>
+          <p className={styles.main_desc}>
             Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet
             sapien, quis venenatis ante odio sit amet eros.
           </p>
-          <div>
-            <button></button>
-            <p>See our work</p>
+          <div className={styles.main_button}>
+            <button className={styles.main_btn}>Try for free</button>
+            <p className={styles.main_play}>See our work</p>
           </div>
         </div>
         <div>
-          <img src={marketing} alt="pic" />
+          <img className={styles.main_pic} src={marketing} alt="pic" />
         </div>
       </div>
     </section>
