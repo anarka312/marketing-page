@@ -1,0 +1,43 @@
+.aboutUs {
+  margin-top: 80px;
+}
+
+.aboutUs_pic_office {
+  display: flex;
+  justify-content: center;
+}
+
+.aboutUs_pic {
+  width: 100%;
+}
+
+.aboutUs_content {
+  margin-top: 80px;
+  display: flex;
+
+  gap: 122px;
+  width: 100%;
+}
+
+.aboutUs_info {
+  max-width: 466px;
+  text-align: right;
+}
+
+.stats {
+    display: flex;
+    text-align: start;
+    gap: 24px;
+}
+
+.stats_num {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #212B36;
+    font-family: "Barlow", serif;
+}
+
+.stats_number > p > sup {
+    color: #FA541C;
+}
+
