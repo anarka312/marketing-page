@@ -24,13 +24,47 @@ const AboutUs = () => {
           </div>
 
           <div className={styles.stats}>
-            <div className={styles.stats_number}>
-              <p className={styles.stats_num}>150<sup>+</sup></p>
-              <p className={styles.stats_title}>projects</p>
+            <div className={styles.stats_block}>
+              <div className={styles.stats_number}>
+                <h2 className={styles.stats_num}>
+                  150<sup>+</sup>
+                </h2>
+                <p className={styles.stats_title}>projects</p>
+              </div>
+              <div>
+                <p className={styles.stats_ttl}>
+                  Praesent turpis. Praesent blandit laoreet nibh. Nunc nonummy
+                  metus.
+                </p>
+              </div>
             </div>
-          
-            <div>
-              <p>Praesent turpis. Praesent blandit laoreet nibh. Nunc nonummy metus.</p>
+            <div className={styles.stats_block}>
+              <div className={styles.stats_number}>
+                <h2 className={styles.stats_num}>
+                  32k<sup>+</sup>
+                </h2>
+                <p className={styles.stats_title}>Happy clients</p>
+              </div>
+              <div>
+                <p className={styles.stats_ttl}>
+                  Praesent turpis. Praesent blandit laoreet nibh. Nunc nonummy
+                  metus.
+                </p>
+              </div>
+            </div>
+            <div className={styles.stats_block}>
+              <div className={styles.stats_number}>
+                <h2 className={styles.stats_num}>
+                  20<sup>+</sup>
+                </h2>
+                <p className={styles.stats_title}>years of experience</p>
+              </div>
+              <div>
+                <p className={styles.stats_ttl}>
+                  Praesent turpis. Praesent blandit laoreet nibh. Nunc nonummy
+                  metus.
+                </p>
+              </div>
             </div>
           </div>
         </div>

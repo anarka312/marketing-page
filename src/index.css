@@ -1,3 +1,19 @@
+
 .container {
-  padding: 0 144px;
+    padding: 0 144px;
+}
+
+p, h3 {
+  color: #637381;
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2 {
+  font-family: "Barlow", sans-serif;
+  color: #212B36;
+}
+
+button {
+  border: none;
+  font-family: "Be Vietnam Pro", sans-serif;
 }
