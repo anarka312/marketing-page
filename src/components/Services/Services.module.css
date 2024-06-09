@@ -27,12 +27,12 @@
   margin-top: 40px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 32px;
+  gap: 22px;
 }
 
 .services_cards_item {
   background-color: #ffffff;
-  width: 244px;
+  width: 234px;
   height: 376px;
   padding: 10px;
   border-radius: 16px;
@@ -42,4 +42,13 @@
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+.services_cards_item > h2 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.services_cards_item > p {
+  text-align: center;
 }

@@ -24,6 +24,10 @@
   text-align: right;
 }
 
+.aboutUs_info > h2 {
+  font-size: 48px;
+}
+
 
 .stats_block {
   display: grid;

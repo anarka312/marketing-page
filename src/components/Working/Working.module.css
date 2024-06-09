@@ -1,0 +1,86 @@
+.working_content {
+  width: 536px;
+  margin-top: 80px;
+}
+
+.working_content > h3 {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.working_content > h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+.working_content > p {
+  font-size: 16px;
+}
+
+.working_cards {
+  margin-top: 40px;
+  width: 1200px;
+  height: 210px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.working_items {
+  width: 223px;
+  height: 150px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  
+  border-radius: 16px;
+}
+
+.working_items:nth-child(1) {
+  background-color: #fdab76;
+  left: 0;
+}
+
+.working_items:nth-child(2) {
+  background-color: #77f0ed;
+  left: 260px;
+  bottom: 20px;
+}
+
+.working_items:nth-child(3) {
+  background-color: #ffe475;
+  left: 520px;
+  bottom: 40px;
+}
+
+.working_items:nth-child(4) {
+  background-color: #69f290;
+  left: 780px;
+  bottom: 60px;
+}
+
+.working_content > span {
+  position: absolute;
+  bottom: 10px;
+  right: 60px;
+  
+  display: flex;
+  align-items: center;
+  color: #770508;
+  font-size: 20px;
+
+}
+
+.working_content > span::after {
+    
+  content: url(./../assets/working_img/arrow.svg);
+  cursor: pointer;
+  position: absolute;
+  left: 90px;
+  bottom: 5px;
+
+}

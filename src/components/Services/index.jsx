@@ -21,7 +21,7 @@ const Services = () => {
         <div className={styles.services_cards}>
           <div className={styles.services_cards_item}>
             <img src={seo} alt="seo" />
-            <h2>Seo</h2>
+            <h2>SEO</h2>
             <p>Nunc nonummy metus. Donec elit libero</p>
             <img src={arrow} alt="arrow" />
           </div>
@@ -33,7 +33,7 @@ const Services = () => {
           </div>
           <div className={styles.services_cards_item}>
             <img src={search} alt="searc" />
-            <h2>Search Engine Oprimization</h2>
+            <h2>Search Engine <br/> Oprimization</h2>
             <p>Nunc nonummy metus. Donec elit libero</p>
             <img src={arrow} alt="arrow" />
           </div>
