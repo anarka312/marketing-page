@@ -4,6 +4,7 @@ import Companies from "./components/Companies";
 import AboutUs from "./components/AboutUs"
 import Services from "./components/Services"
 import Working from "./components/Working"
+import Case from "./components/Case"
 
 
 
@@ -16,6 +17,7 @@ function HomePage() {
      <AboutUs/>
      <Services/>
      <Working/>
+     <Case/>
     </div>
   );
 }
