@@ -75,6 +75,10 @@ const Case = () => {
             </div>
         </div>
       </div>
+
+      <div className={styles.case_view}>
+        <span>View All</span>
+      </div>
     </section>
   );
 };

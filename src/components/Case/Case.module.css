@@ -211,3 +211,27 @@
   font-size: 13px;
   font-weight: 600;
 }
+
+.case_view {
+  margin-top: 131px;
+  width: 1152px;
+  height: 80px;
+  position: relative;
+  
+}
+
+.case_view > span {
+  position: absolute;
+  font-size: 15px;
+  color: #FA541C;
+  font-family: "Poppnis", serif;
+  right: 34px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.case_view > span::after {
+  content: url(./../assets/case_img/iconbase.svg);
+  position: absolute;
+  left: 12;
+}
