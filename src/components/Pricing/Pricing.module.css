@@ -1,0 +1,35 @@
+.pricing_section {
+  
+    height: 180px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.pricing_right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pricing_right > span {
+    color: #212B36;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.pricing_section2 {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 20px;
+}
+
+.pricing_card1 {
+    
+}

@@ -11,7 +11,7 @@ const Case = () => {
   return (
     <section className="container">
       <div className={styles.case_section}>
-        <h3>Our Work</h3>
+        <h4>Our Work</h4>
         <h2>Case Studies</h2>
       </div>
 

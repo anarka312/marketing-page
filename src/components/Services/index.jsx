@@ -11,7 +11,7 @@ const Services = () => {
     <section className="container">
       <div className={styles.services_section}>
         <div className={styles.services_content}>
-          <h3>Our Services</h3>
+          <h4>Our Services</h4>
           <h2>We Provide</h2>
           <p>
             Nunc nonummy metus. Donec elit libero, sodales nec,

@@ -11,7 +11,7 @@ const AboutUs = () => {
         </div>
         <div className={styles.aboutUs_content}>
           <div className={styles.aboutUs_info}>
-            <p>About us</p>
+            <h4>About us</h4>
             <h2>Who We Are</h2>
             <p>
               In hac habitasse platea dictumst. Aliquam lobortis. Lorem ipsum

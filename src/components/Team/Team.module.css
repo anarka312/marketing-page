@@ -1,77 +1,81 @@
 .team_section {
-    margin-top: 80px;
-    background-color: #161c24;
-    padding: 160px 144px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .inner_section {
-    width: 1200px;
-    height: 752px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .team_content {
-    width: 368px;
-    flex-shrink: 0; /* Предотвращает сжатие */
-  }
-  
-  .team_content > span {
-    font-size: 12px;
-    text-transform: uppercase;
-    color: #637381;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .team_content > h2 {
-    font-size: 48px;
-    font-family: "Barlow", sans-serif;
-    color: #fff;
-    text-transform: capitalize;
-  }
-  
-  .team_content > p {
-    font-size: 16px;
-    color: #fff;
-  }
-  
-  .team_button {
-    margin-top: 60px;
-    display: flex;
-  }
-  
-  .team_btn_left {
-    margin-right: 10px;
-  }
-  
-  .team_cards {
-    width: 606px;
-    height: 436px;
-    display: flex;
-    align-items: center;
-    gap: 32px;
-  }
-  
-  .team_items {
-    width: 270px;
-    height: 468px;
-    overflow: hidden;
-    text-align: center;
-  }
-  
-  .team_items > img {
-    width: 270px;
-    height: 360px;
-    border-radius: 16px;
-  }
-  
-  .team_items > h3, .team_items > p {
-    color: #fff;
-  }
-  
-  .team_items:last-child {
-    margin-right: -50px; 
-  }
-  
+  margin-top: 80px;
+  background-color: #161c24;
+  padding: 160px 144px;
+  display: flex;
+  justify-content: center;
+  width: 100%; /* Добавлено */
+}
+
+.inner_section {
+  max-width: 1200px; /* Изменено на max-width */
+  width: 100%; /* Добавлено */
+  height: 752px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team_content {
+  width: 368px;
+  flex-shrink: 0; /* Предотвращает сжатие */
+}
+
+
+
+.team_content > h2 {
+  font-size: 48px;
+  font-family: "Barlow", sans-serif;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+.team_content > p {
+  font-size: 16px;
+  color: #fff;
+}
+
+.team_button {
+  margin-top: 60px;
+  display: flex;
+}
+
+.team_btn_left {
+  margin-right: 10px;
+}
+
+.team_cards {
+  width: 606px;
+  height: 436px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.team_items {
+  width: 270px;
+  height: 436px;
+  /* overflow: hidden; */
+  text-align: center;
+}
+
+.team_items > img {
+  width: 270px;
+  height: 360px;
+  border-radius: 16px;
+}
+
+.team_items > h3 {
+  font-size: 18px;
+  color: #fff;
+}
+
+.team_items > p {
+  font-size: 13px;
+  color: #637381;
+  font-family: "Poppins", sans-serif;
+}
+
+.team_items:last-child {
+  overflow: hidden;
+  margin-right: -50px; 
+}
