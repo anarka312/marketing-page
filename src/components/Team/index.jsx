@@ -8,8 +8,8 @@ import img3 from "./../assets/team_img/img3.png";
 
 const Team = () => {
   return (
-    <section className="container">
-      <div className={styles.team_section}>
+    <section className={styles.team_section}>
+      {/* <div className="container"> */}
         <div className={styles.inner_section}>
           <div className={styles.team_content}>
             <h4>Team</h4>
@@ -41,7 +41,7 @@ const Team = () => {
             </div>
           </div>
         </div>
-      </div>
+      {/* </div> */}
     </section>
   );
 };

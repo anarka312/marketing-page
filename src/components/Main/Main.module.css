@@ -2,9 +2,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  /* gap: 80px; */
+  gap: 80px;
   margin-top: 103px;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .main_text {
@@ -18,6 +18,8 @@
   color: #212b36;
   font-family: "Barlow", sans-serif;
   font-weight: 700;
+  margin-top: 24px;
+  margin-bottom: 40px;
 }
 
 .main_desc {
@@ -25,6 +27,7 @@
   font-family: 16px;
   color: #637381;
   font-family: "Poppins", sans-serif;
+  margin-bottom: 40px;
 }
 
 .main_button {
@@ -61,6 +64,8 @@
   content: url(./../assets/main_images/right.svg);
 }
 .main_pic {
+  
   width: 100%;
-  height: 481px;
+  height: auto;
+
 }

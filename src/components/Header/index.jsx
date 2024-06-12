@@ -16,8 +16,13 @@ const Header = () => {
           <p>Components</p>
           <div className={styles.header_links}>
             <img style={{ margin: "4px" }} src={dot} alt="dot" />
-            <p>Pages</p>
+            <p className={styles.dropdown_trigger}>Pages</p>
             <img src={icon_down} alt="down" />
+            <div className={styles.dropdownMenu}>
+              <a href="#page1">Page 1</a>
+              <a href="#page2">Page 2</a>
+              <a href="#page3">Page 3</a>
+            </div>
           </div>
           <p>Documentation</p>
         </div>

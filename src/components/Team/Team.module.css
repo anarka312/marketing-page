@@ -1,7 +1,7 @@
 .team_section {
   margin-top: 80px;
   background-color: #161c24;
-  padding: 160px 144px;
+  padding: 160px 0 160px 144px;
   display: flex;
   justify-content: center;
   width: 100%; /* Добавлено */
@@ -10,7 +10,7 @@
 .inner_section {
   max-width: 1200px; /* Изменено на max-width */
   width: 100%; /* Добавлено */
-  height: 752px;
+  /* height: 752px; */
   display: flex;
   justify-content: space-between;
 }
@@ -77,5 +77,5 @@
 
 .team_items:last-child {
   overflow: hidden;
-  margin-right: -50px; 
+  /* margin-right: -50px;  */
 }
