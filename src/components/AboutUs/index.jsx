@@ -20,7 +20,7 @@ const AboutUs = () => {
               habitant morbi tristique senectus et netus et malesuada fames ac
               turpis egestas.
             </p>
-            <p>Learn more</p>
+            <a className={styles.aboutUs_link}>Learn more</a>
           </div>
 
           <div className={styles.stats}>
@@ -30,6 +30,7 @@ const AboutUs = () => {
                   150<sup>+</sup>
                 </h2>
                 <p className={styles.stats_title}>projects</p>
+                
               </div>
               <div>
                 <p className={styles.stats_ttl}>
@@ -57,7 +58,7 @@ const AboutUs = () => {
                 <h2 className={styles.stats_num}>
                   20<sup>+</sup>
                 </h2>
-                <p className={styles.stats_title}>years of experience</p>
+                <p className={styles.stats_title}>years of <br/> experience</p>
               </div>
               <div>
                 <p className={styles.stats_ttl}>
