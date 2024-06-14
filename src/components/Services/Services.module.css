@@ -2,17 +2,18 @@
   margin-top: 120px;
 }
 
-.services_content {
+/* .services_content {
   width: 480px;
-}
+} */
 
 
 .services_content > h2 {
-  display: inline-block;
-  line-height: 0;
+  
   font-size: 48px;
   font-weight: 700;
   text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 24px;
 }
 
 .services_content > p {
@@ -41,8 +42,10 @@
 }
 
 .services_cards_item > h2 {
+  font-weight: 400;
   font-size: 18px;
   margin-top: 40px;
+  margin-bottom: 8px;
 }
 
 .services_cards_item > p {

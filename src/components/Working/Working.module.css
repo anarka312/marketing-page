@@ -75,8 +75,8 @@
     
   content: url(./../assets/working_img/arrow.svg);
   cursor: pointer;
-  position: absolute;
-  left: 80px;
-  bottom: 3px;
+display: flex;
+justify-content: center;
+margin-left: 5px;
 
 }

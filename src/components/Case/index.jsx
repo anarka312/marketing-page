@@ -17,6 +17,42 @@ const Case = () => {
 
       <div className={styles.case_cards}>
         <div className={styles.case_item1}>
+          <div className={styles.case_img}>
+            <img src={case4} alt="img" />
+          </div>
+
+          <div className={styles.case_content}>
+            <p className={styles.case_title}>Branding</p>
+            <h2>Bank of Amerika</h2>
+            <p>
+              Quisque id odio. Nunc egestas, augue at pellentesque laoreet,
+              felis eros vehicul
+            </p>
+            <div className={styles.case_link}>Learn more</div>
+          </div>
+          <div>
+
+          <img className={styles.case_img3} src={case3} alt="img" />
+          </div>
+        </div>
+        <div className={styles.case_item2}>
+          <img src={case1} alt="img" />
+
+          <div className={styles.case_block}>
+            <img src={case2} alt="img" />
+          </div>
+        </div>
+
+        <div className={styles.case_item3}></div>
+      </div>
+
+      {/* <div className={styles.case_section}>
+        <h4>Our Work</h4>
+        <h2>Case Studies</h2>
+      </div>
+
+      <div className={styles.case_cards}>
+        <div className={styles.case_item1}>
           <img src={case1} alt="img" />
           <div className={styles.case_desc}>
             <span>Marketing</span>
@@ -78,7 +114,7 @@ const Case = () => {
 
       <div className={styles.case_view}>
         <span>View All</span>
-      </div>
+      </div> */}
     </section>
   );
 };
