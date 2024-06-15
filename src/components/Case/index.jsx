@@ -43,7 +43,21 @@ const Case = () => {
           </div>
         </div>
 
-        <div className={styles.case_item3}></div>
+        <div className={styles.case_item3}>
+        <div className={styles.case_item6}>
+          <div className={styles.case_img}>
+            <img src={case6} alt="img" />
+          </div>
+          <div className={styles.case_content}>
+            <p className={styles.case_title}>Social</p>
+            <h2>Louis Vuitton</h2>
+            <p>Quisque id odio. Nunc egestas, augue at pellentesque laoreet, felis eros vehicul</p>
+          </div>
+            <div className={styles.case_link}>
+              Learn more
+            </div>
+        </div>
+        </div>
       </div>
 
       {/* <div className={styles.case_section}>
