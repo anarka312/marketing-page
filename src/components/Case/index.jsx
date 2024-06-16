@@ -31,10 +31,10 @@ const Case = () => {
             <div className={styles.case_link}>Learn more</div>
           </div>
           <div>
-
-          <img className={styles.case_img3} src={case3} alt="img" />
+            <img className={styles.case_img3} src={case3} alt="img" />
           </div>
         </div>
+
         <div className={styles.case_item2}>
           <img src={case1} alt="img" />
 
@@ -44,19 +44,18 @@ const Case = () => {
         </div>
 
         <div className={styles.case_item3}>
-        <div className={styles.case_item6}>
           <div className={styles.case_img}>
             <img src={case6} alt="img" />
           </div>
           <div className={styles.case_content}>
             <p className={styles.case_title}>Social</p>
             <h2>Louis Vuitton</h2>
-            <p>Quisque id odio. Nunc egestas, augue at pellentesque laoreet, felis eros vehicul</p>
+            <p>
+              Quisque id odio. Nunc egestas, augue at pellentesque laoreet,
+              felis eros vehicul
+            </p>
           </div>
-            <div className={styles.case_link}>
-              Learn more
-            </div>
-        </div>
+          <div className={styles.case_link}>Learn more</div>
         </div>
       </div>
 
