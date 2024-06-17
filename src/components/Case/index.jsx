@@ -30,13 +30,15 @@ const Case = () => {
             </p>
             <div className={styles.case_link}>Learn more</div>
           </div>
-          <div>
-            <img className={styles.case_img3} src={case3} alt="img" />
+          <div className={styles.case_img3}>
+            <img src={case3} alt="img" />
           </div>
         </div>
 
         <div className={styles.case_item2}>
-          <img src={case1} alt="img" />
+          <div className={styles.case_block}>
+            <img src={case1} alt="img" />
+          </div>
 
           <div className={styles.case_block}>
             <img src={case2} alt="img" />
