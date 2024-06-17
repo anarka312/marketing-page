@@ -17,18 +17,20 @@ const Case = () => {
 
       <div className={styles.case_cards}>
         <div className={styles.case_item1}>
-          <div className={styles.case_img}>
-            <img src={case4} alt="img" />
-          </div>
+          <div className={styles.case_info}>
+            <div className={styles.case_img}>
+              <img src={case4} alt="img" />
+            </div>
 
-          <div className={styles.case_content}>
-            <p className={styles.case_title}>Branding</p>
-            <h2>Bank of Amerika</h2>
-            <p>
-              Quisque id odio. Nunc egestas, augue at pellentesque laoreet,
-              felis eros vehicul
-            </p>
-            <div className={styles.case_link}>Learn more</div>
+            <div className={styles.case_content}>
+              <p className={styles.case_title}>Branding</p>
+              <h2>Bank of Amerika</h2>
+              <p>
+                Quisque id odio. Nunc egestas, augue at pellentesque laoreet,
+                felis eros vehicul
+              </p>
+              <div className={styles.case_link}>Learn more</div>
+            </div>
           </div>
           <div className={styles.case_img3}>
             <img src={case3} alt="img" />
@@ -40,12 +42,17 @@ const Case = () => {
             <img src={case1} alt="img" />
           </div>
 
-          <div className={styles.case_block}>
+          <div className={styles.case_block2}>
             <img src={case2} alt="img" />
           </div>
         </div>
 
         <div className={styles.case_item3}>
+          <div className={styles.case_img5}>
+            <img src={case5} alt="img" />
+          </div>
+          <div className={styles.case_info2}>
+
           <div className={styles.case_img}>
             <img src={case6} alt="img" />
           </div>
@@ -56,8 +63,9 @@ const Case = () => {
               Quisque id odio. Nunc egestas, augue at pellentesque laoreet,
               felis eros vehicul
             </p>
-          </div>
           <div className={styles.case_link}>Learn more</div>
+          </div>
+          </div>
         </div>
       </div>
 
