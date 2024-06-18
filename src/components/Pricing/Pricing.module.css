@@ -4,15 +4,20 @@
     margin-top: 120px;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    
+}
+
+.pricing_left > h2 {
+margin-top: 16px;
+margin-bottom: 24px;
 }
 
 .pricing_right {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+   
     display: flex;
-    justify-content: center;
+   
+    align-items: center;
+    align-self: flex-end;
     gap: 10px;
 }
 
@@ -36,8 +41,79 @@
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 16px;
-    padding: 40px;
+    padding: 37px;
 }
+
+.pricing_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing_header > h3 {
+    font-size: 24px;
+    color: #FA541C;
+  font-weight: 700;
+    font-family: "Barlow", sans-serif;
+
+}
+
+.pricing_price {
+    font-size: 36px;
+    color: #212B36;
+    font-family: "Barlow", sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.pricing_price > span {
+    font-size: 20px;
+    color: #919EAB;
+   
+}
+
+.pricing_text {
+    margin-top: 24px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+
+.pricing_item {
+    margin-top: 40px;
+    list-style: none;
+    gap: 16px;
+    font-size: 14px;
+    color: #212B36;
+}
+
+ul > li {
+    display: flex;
+    margin-bottom: 16px;
+    gap: 12px;
+}
+
+ul > li::before  {
+    content: url(./../assets/pricing_img/ic_check_1.svg);
+    
+}
+
+button {
+    border: none;
+    background-color:#FA541C;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    width: 282px;
+    height: 48px;
+    margin-top: 40px;
+}
+
+
+/* .pricing_card1 > img {
+    display: flex;
+    margin-left: 221px;
+   margin-top: 0;
+} */
 
 .pricing_card2 {
     width: 362px;
