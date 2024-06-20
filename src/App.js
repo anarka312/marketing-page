@@ -7,6 +7,7 @@ import Working from "./components/Working"
 import Case from "./components/Case"
 import Team from "./components/Team"
 import Pricing from "./components/Pricing"
+import Faqs from "./components/Faqs";
 
 
 
@@ -22,6 +23,7 @@ function HomePage() {
      <Case/>
      <Team/>
      <Pricing/>
+     <Faqs/>
     </div>
   );
 }
