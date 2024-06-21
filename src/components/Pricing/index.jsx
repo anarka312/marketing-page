@@ -39,7 +39,7 @@ const Pricing = () => {
             <li>Online operator 24/7</li>
             <li>International posting</li>
           </ul>
-          <button>Get started</button>
+          <button className={styles.pricing_btn}>Get started</button>
         </div>
         <div className={styles.pricing_card2}>
           <div className={styles.pricing_header}>
@@ -56,7 +56,7 @@ const Pricing = () => {
             <li>International posting</li>
             <li>Unique newsletters</li>
           </ul>
-          <button>Get started</button>
+          <button className={styles.pricing_btn}>Get started</button>
         </div>
         <div className={styles.pricing_card3}>
           <div className={styles.pricing_header}>
@@ -74,7 +74,7 @@ const Pricing = () => {
             <li>Unique newsletters</li>
             <li>20 Design templates</li>
           </ul>
-          <button>Get started</button>
+          <button className={styles.pricing_btn}>Get started</button>
         </div>
       </div>
     </div>

@@ -96,7 +96,7 @@ ul > li::before  {
     
 }
 
-button {
+.pricing_btn {
     border: none;
     background-color:#FA541C;
     color: #fff;
