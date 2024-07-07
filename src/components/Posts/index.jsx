@@ -21,29 +21,30 @@ const Posts = () => {
             </div>
             <div className={styles.posts_img}>
               <img src={avatar2} alt="img" />
-              <div className={styles.posts_img}>
-                <h4>Maddox Fletcher</h4>
-              </div>
+
+              <h4>Maddox Fletcher</h4>
             </div>
           </div>
           <div className={styles.posts_card1}>
-            <h5>15 Dec 2020 8 min read</h5>
-            <h4>Any mechanical keyboard enthusiasts in design?</h4>
+            <div className={styles.posts_desс}>
+              <h5>15 Dec 2020 8 min read</h5>
+              <h4>Any mechanical keyboard enthusiasts in design?</h4>
+            </div>
             <div className={styles.posts_img}>
               <img src={avatar3} alt="" />
-              <div className={styles.posts_img}>
-                <h4>Maddox Fletcher</h4>
-              </div>
+
+              <h4>Maddox Fletcher</h4>
             </div>
           </div>
           <div className={styles.posts_card1}>
-            <h5>15 Dec 2020 8 min read</h5>
-            <h4>Any mechanical keyboard enthusiasts in design?</h4>
+            <div className={styles.posts_desс}>
+              <h5>15 Dec 2020 8 min read</h5>
+              <h4>Any mechanical keyboard enthusiasts in design?</h4>
+            </div>
             <div className={styles.posts_img}>
               <img src={avatar} alt="" />
-              <div className={styles.posts_img}>
-                <h4>Maddox Fletcher</h4>
-              </div>
+
+              <h4>Maddox Fletcher</h4>
             </div>
           </div>
           <img src={right} alt="right arrow" className={styles.posts_arrow} />
