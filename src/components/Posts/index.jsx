@@ -25,7 +25,7 @@ const Posts = () => {
               <h4>Maddox Fletcher</h4>
             </div>
           </div>
-          <div className={styles.posts_card1}>
+          <div className={styles.posts_card2}>
             <div className={styles.posts_desс}>
               <h5>15 Dec 2020 8 min read</h5>
               <h4>Any mechanical keyboard enthusiasts in design?</h4>
@@ -48,6 +48,12 @@ const Posts = () => {
             </div>
           </div>
           <img src={right} alt="right arrow" className={styles.posts_arrow} />
+        </div>
+        <div className={styles.posts_dots}>
+          <div className={styles.posts_dot}></div>
+          <div className={styles.posts_dot}></div>
+          <div className={styles.posts_dot}></div>
+          <div className={styles.posts_dot}></div>
         </div>
       </div>
     </div>

@@ -10,6 +10,7 @@ import Pricing from "./components/Pricing"
 import Faqs from "./components/Faqs";
 import Feedback from "./components/Feedback";
 import Posts from "./components/Posts";
+import Form from "./components/Form";
 
 
 
@@ -28,6 +29,7 @@ function HomePage() {
      <Faqs/>
      <Feedback/>
      <Posts/>
+     <Form/>
     </div>
   );
 }
