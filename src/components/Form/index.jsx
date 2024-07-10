@@ -1,8 +1,6 @@
 import React from "react";
 import styles from "./Form.module.css";
-import bg from "./../assets/form_img/bg.png";
-import email from "./../assets/form_img/email.svg";
-import pin from "./../assets/form_img/pin.svg";
+
 
 const Form = () => {
   return (
@@ -11,19 +9,22 @@ const Form = () => {
       <div className="container">
         <div className={styles.form_content}>
           <div className={styles.form_desc}>
-            <h1>Get Free SEO Analysis</h1>
-            <p>Hello@agency.com</p>
-            <p>508 Bridle Avenue Newnan, GA 30263</p>
+            <h1>
+              Get Free <br /> SEO Analysis
+            </h1>
+            <p className={styles.form_email}>Hello@agency.com</p>
+            <p className={styles.form_address}>
+              508 Bridle Avenue Newnan, GA 30263
+            </p>
           </div>
           <div className={styles.form_input}>
-           <form>
-            <input type="text" placeholder="name" />
-            <input type="email" placeholder="email" />
-            <input type="phone" placeholder="phone" />
-            <input type="text" placeholder="Website URL" />
-            <button type="submit">Send Request</button>
-           </form>
-                    
+            <form>
+              <input type="text" placeholder="name" />
+              <input type="email" placeholder="email" />
+              <input type="phone" placeholder="phone" />
+              <input type="text" placeholder="Website URL" />
+              <button type="submit">Send Request</button>
+            </form>
           </div>
         </div>
       </div>
