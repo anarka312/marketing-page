@@ -1,0 +1,42 @@
+.sign_section {
+    background-color: #F9FAFB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign_left {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.sign_img {
+    width: 80px;
+    height: 80px;
+
+}
+
+.sign_ttl {
+    margin-top: 30px;
+}
+
+.sign_ttl > h4 {
+    
+    color: #212B36;
+    font-size: 24px;
+    font-family: "Barlow", serif;
+    margin-top: 8px;
+    text-transform: capitalize;
+}
+
+.sign_ttl > p {
+    color: #637381;
+    font-size: 14px;
+}
+
+.sign_form {
+    display: flex;
+    align-items: center;
+}

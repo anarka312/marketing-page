@@ -11,6 +11,7 @@ import Faqs from "./components/Faqs";
 import Feedback from "./components/Feedback";
 import Posts from "./components/Posts";
 import Form from "./components/Form";
+import Sign from "./components/Sign";
 
 
 
@@ -30,6 +31,7 @@ function HomePage() {
      <Feedback/>
      <Posts/>
      <Form/>
+     <Sign/>
     </div>
   );
 }
