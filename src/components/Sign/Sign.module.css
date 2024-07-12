@@ -45,7 +45,7 @@
 .sign_right {
     display: flex;
     align-items: baseline;
-    margin-top: 40px;
+    margin-top: 45px;
     /* margin-left: 25px; */
     /* align-items: center; */
 }
@@ -53,22 +53,22 @@
 .sign_right input {
     width: 364px; 
     height: 56px;
-    padding: 0 12px;
-    background-color: #919EAB;
+    padding: 0 14px;
+    background-color: #dae0e6;
     opacity: 0.8;
-    border: 1px solid #ccc;
+   
     border-radius: 4px;
     font-size: 16px;
 }
 
 .sign_right button {
     height: 56px;
-    padding: 0 24px;
-    margin-left: 12px; /* Добавляем небольшой отступ между инпутом и кнопкой */
-    background-color: #007BFF;
+    padding: 15px 22px;
+    
+    background-color: #FA541C;
     color: #fff;
     border: none;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 15px;
     cursor: pointer;
 }
