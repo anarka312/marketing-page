@@ -6,20 +6,20 @@ const Sign = () => {
   return (
     <div className={styles.sign_section}>
       <div className="container">
-        <div className={styles.sign_left}>
-          <div className={styles.sign_img}>
-            <img src={email} alt="img" />
+        <div className={styles.sign_block}>
+          <div className={styles.sign_left}>
+            <div className={styles.sign_img}>
+              <img src={email} alt="img" />
+            </div>
+            <div className={styles.sign_ttl}>
+              <h4>Sign Up For Newsletter</h4>
+              <p>Receive 50% discount on first project</p>
+            </div>
           </div>
-          <div className={styles.sign_ttl}>
-            <h4>Sign Up For Newsletter</h4>
-            <p>Receive 50% discount on first project</p>
-          </div>
-        </div>
-        <div className={styles.sign_rig}>
-          <form>
+          <div className={styles.sign_right}>
             <input type="text" placeholder="Enter your email" />
             <button type="submit">Sign Up</button>
-          </form>
+          </div>
         </div>
       </div>
     </div>

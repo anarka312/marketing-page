@@ -1,12 +1,16 @@
 .sign_section {
+  
     background-color: #F9FAFB;
+    padding: 64px 0;
+}
+.sign_block {
+   
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
-
 .sign_left {
-    margin-top: 64px;
+    /* margin-top: 64px; */
     display: flex;
     align-items: center;
     gap: 24px;
@@ -36,7 +40,35 @@
     font-size: 14px;
 }
 
-.sign_form {
+
+
+.sign_right {
     display: flex;
-    align-items: center;
+    align-items: baseline;
+    margin-top: 40px;
+    /* margin-left: 25px; */
+    /* align-items: center; */
+}
+
+.sign_right input {
+    width: 364px; 
+    height: 56px;
+    padding: 0 12px;
+    background-color: #919EAB;
+    opacity: 0.8;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.sign_right button {
+    height: 56px;
+    padding: 0 24px;
+    margin-left: 12px; /* Добавляем небольшой отступ между инпутом и кнопкой */
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
 }
