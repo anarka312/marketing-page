@@ -12,6 +12,7 @@ import Feedback from "./components/Feedback";
 import Posts from "./components/Posts";
 import Form from "./components/Form";
 import Sign from "./components/Sign";
+import Footer from "./components/Footer";
 
 
 
@@ -32,6 +33,7 @@ function HomePage() {
      <Posts/>
      <Form/>
      <Sign/>
+     <Footer/>
     </div>
   );
 }
